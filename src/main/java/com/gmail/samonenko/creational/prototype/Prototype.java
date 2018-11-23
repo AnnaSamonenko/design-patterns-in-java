@@ -1,7 +1,7 @@
 package com.gmail.samonenko.creational.prototype;
 
 /**
- * Motivation: to clone already exist object(deep copy)
+ * Motivation: to clone already exist object by deep copy.
  */
 
 class Point {
