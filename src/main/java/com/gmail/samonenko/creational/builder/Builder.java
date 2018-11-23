@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Motivation: to use when construction of object is significant.
+ * Motivation: to use when construction of object is significant. TODO: Fix
  */
 
 public class Builder {
