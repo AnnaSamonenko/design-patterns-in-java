@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Motivation: to use when construction of object is significant. TODO: Fix
+ * Motivation: to use when construction of object is significant.
  */
 
 public class Builder {
@@ -55,7 +55,7 @@ class CodeBuilder {
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         for (Field field : code.getFields())
-            stringBuilder.append("  " + field.getType() + " " + field.getName() + ";\n");
+            stringBuilder.append("  " + accessModifier + " " + field.getType() + " " + field.getName() + ";\n");
         return accessModifier + " class " + code.getClassName() + "\n" + "{\n" + stringBuilder + "}";
     }
 
